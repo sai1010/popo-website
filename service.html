@@ -1,0 +1,300 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Service</title>
+    <script src="https://kit.fontawesome.com/e111fa4f6d.js" crossorigin="anonymous"></script>
+    <style>
+         nav{
+        display: flex;
+        text-align: center;
+        justify-content: space-between;
+        padding: 20px 7%;
+        background-color: white;
+        box-shadow: 2px 3px 2px 2px  black;
+    }
+    .logo{
+        width: 150px;
+        height: fit-content;
+        cursor: pointer;
+    }
+    .first li{
+        list-style: none;
+        display: inline-block;
+       margin: 1px 30px;
+    }
+    .first li a{
+        text-decoration: none;
+        color:black;
+    }
+    .pavan{
+            margin-left: 60%;
+            margin-top: 10%;
+        }
+        .pavan h2{
+            color: white;
+            transform: translate(-50%,-50%);
+            font-size: 3em;
+    
+        }
+        .pavan h2:nth-child(1){
+            color: transparent;
+            -webkit-text-stroke: 2px #03a9f4;
+        }
+        .pavan h2:nth-child(2){
+            color: #03a9f4;
+            margin-top: -19%;
+            animation: animate 4s ease-in-out infinite;
+        }
+        @keyframes animate{
+            0%,50%{
+                
+                clip-path: polygon(0% 42%, 20% 55%, 42% 46%, 62% 55%, 81% 43%, 99% 50%, 99% 99%, 1% 100%);
+            }
+            0%,100%{
+                
+                clip-path: polygon(0% 52%, 20% 61%, 42% 48%, 58% 59%, 80% 48%, 100% 58%, 99% 99%, 0% 99%);
+            }
+        }
+    .hotel1{
+        margin-top: 6%;
+        box-shadow: 2px 3px 2px 3px #666;
+        width: 23%;
+        margin-left: 10%;
+        padding: 10px 8px;
+
+    }
+    .hotel1 img{
+        margin-left: 35%;
+        width: 38%;
+    }
+    .hotel1 p{
+        font-weight: 400;
+        font-family: Arial, Helvetica, sans-serif;
+        margin-left: 8%;
+        text-align-last: center;
+        color: purple;
+    }
+    .hotel1 h2{
+        font-weight: 400;
+        margin-left: 25%;
+        color: rgb(210, 80, 201);
+    }
+    .hotel2{
+        margin-top: -10%;
+        box-shadow: 2px 3px 2px 3px #666;
+        width: 20%;
+        margin-left: 39%;
+        padding: 10px 8px;
+    }
+    .hotel2 img{
+        margin-left: 35%;
+        width: 38%;
+    }
+    .hotel2 p{
+        font-weight: 400;
+        font-family: Arial, Helvetica, sans-serif;
+        margin-left: 8%;
+        text-align-last: center;
+        color: purple;
+    }
+    .hotel2 h2{
+        font-weight: 400;
+        margin-left: 25%;
+        color: rgb(210, 80, 201);
+    }
+    .hotel3{
+        margin-top: -33.6%;
+        box-shadow: 2px 3px 2px 3px #666;
+        width: 23%;
+        margin-left: 65%;
+        padding: 10px 8px;
+    }
+    .hotel3 img{
+        margin-left: 35%;
+        width: 38%;
+    }
+    .hotel3 p{
+        font-weight: 400;
+        font-family: Arial, Helvetica, sans-serif;
+        margin-left: 8%;
+        text-align-last: center;
+        color: purple;
+    }
+    .hotel3 h2{
+        font-weight: 400;
+        margin-left: 33%;
+        color: rgb(210, 80, 201);
+    }
+    .hotel4{
+        margin-top: 8%;
+        box-shadow: 2px 3px 2px 3px #666;
+        width: 23%;
+        margin-left: 10%;
+        padding: 10px 8px;
+
+    }
+    .hotel4 img{
+        margin-left: 35%;
+        width: 38%;
+    }
+    .hotel4 p{
+        font-weight: 400;
+        font-family: Arial, Helvetica, sans-serif;
+        margin-left: 8%;
+        text-align-last: center;
+        color: purple;
+    }
+    .hotel4 h2{
+        font-weight: 400;
+        margin-left: 25%;
+        color: rgb(210, 80, 201);
+    }
+    .hotel5{
+        margin-top: -22%;
+        box-shadow: 2px 3px 2px 3px #666;
+        width: 23%;
+        margin-left: 65%;
+        padding: 10px 8px;
+    }
+    .hotel5 img{
+        margin-left: 35%;
+        width: 38%;
+    }
+    .hotel5 p{
+        font-weight: 400;
+        font-family: Arial, Helvetica, sans-serif;
+        margin-left: 8%;
+        text-align-last: center;
+        color: purple;
+    }
+    .hotel5 h2{
+        font-weight: 400;
+        margin-left: 33%;
+        color: rgb(210, 80, 201);
+    }
+    .fotter {
+            margin-left: 40%;
+            margin-top: 5%;
+            position: relative;
+        }
+        .fotter a{
+            margin-right: 4%;
+            color:gray;
+        }
+        .fotter hr{
+            width: 140%;
+            position: absolute;
+            margin-left: -54%;
+            color: #333;
+        }
+        .fotter p{
+            color: gray;
+        }
+        .start{
+        margin-left: -33%;
+        margin-top: 2%;
+        position: absolute;
+       }
+       .start h4{
+        margin-left:8%;
+        font-weight: 500;
+        font-size: 1.4em;
+        color: #03a9f4;
+       }
+       .start p{
+        margin-top: -7%;
+        margin-left: -3%;
+        text-indent: 7%;
+       }
+       .end{
+        margin-left: 45%;
+        position: absolute;
+        margin-top: 2%;
+       }
+       .end h4{
+        font-weight: 500;
+        font-size: 1.4em;
+        color: #03a9f4;
+       }
+       .end a{
+        text-decoration: none;
+       }
+    </style>
+</head>
+<body>
+    <div class="header">
+        <nav>
+            <img src="images/logo-red.png" class="logo">
+            <ul class="first">
+                <li><a href="file:///C:/Users/Sai%20Naidu/OneDrive/Desktop/my%20page/Website.html#">Home </a></li>
+                <li><a href="file:///C:/Users/Sai%20Naidu/OneDrive/Desktop/my%20page/popular.html#">Online Packages</a></li>
+                <li><a href="file:///C:/Users/Sai%20Naidu/OneDrive/Desktop/my%20page/service.html">Services</a></li>
+                <li><a href="file:///C:/Users/Sai%20Naidu/OneDrive/Desktop/my%20page/gallary.html">Gallery</a></li>
+                <li><a href="file:///C:/Users/Sai%20Naidu/OneDrive/Desktop/my%20page/about.html">About us</a></li>
+            </ul>
+            </nav>
+            </div>
+            <div class="pavan">
+                <h2> Services</h2>
+                <h2>Services </h2>
+            </div>
+            <div class="hotel">
+                <div class="hotel1">
+               <img src="hotel-solid.svg">
+               <h2>Affordable Hotel</h2>
+                <p> Book at Over 900,000 Hotels <br>Worldwide now. Quick,Easy<br> Booking. Great Rates. </p>
+                </div>
+                <div class="hotel2">
+                    <img src="utensils-solid.svg">
+                    <h2>Food & Drinks</h2>
+                     <p>Food, substance consisting  <br>protein, carbohydrate, fat, and  <br>nutrients used in the body.  </p>
+                     </div>
+                     <div class="hotel3">
+                        <img src="safety_check_FILL0_wght400_GRAD0_opsz24.svg">
+                        <h2>Safty Gaurd</h2>
+                         <p>Safty Gaurd means to  <br>keep secure from danger  <br>or against attack. </p>
+                         </div>
+                         <div class="hotel4">
+                            <img src="globe_uk_FILL0_wght400_GRAD0_opsz24.svg">
+                            <h2>Around The World</h2>
+                             <p>The earth and all the  <br>people and things on it <br>throughtout the world. </p>
+                             </div>
+                             <div class="hotel5">
+                                <img src="flight_takeoff_FILL0_wght400_GRAD0_opsz24.svg">
+                                <h2>Fastast Travel</h2>
+                                 <p>Book flight tickets at lower  <br>price guaranteed. for best<br>flight booking offers. </p>
+                                 </div>
+            </div>
+            <div class="fotter">
+                <a href="https://www.facebook.com/"><i class="fa-brands fa-square-facebook"></i></a>
+                <a href="https://www.whatsapp.com/"><i class="fa-brands fa-whatsapp"></i></a>
+                <a href="https://www.twitter.com/"><i class="fa-brands fa-twitter"></i></a>
+                <a href="https://www.instagram.com/"><i class="fa-brands fa-instagram"></i></a>
+                <a href="https://www.linkedin.com/"><i class="fa-brands fa-linkedin"></i></a>
+                <a href="https://www.youtube.com/"><i class="fa-brands fa-youtube"></i></a>
+            <hr>
+            <div class="field">
+                <div class="start">
+                <h4>About Us</h4>
+                <br>
+        
+                <p> Contrary to popular belief, Lores Ipsum is not simply.<br>It has roots in a piece of classical Latin literature form 45 BC,<br> Making it over 200 years old .Richard mcClintock , a Latin <br>professor at Hampden-sydney college in virginia, looked up<br> one of the more obscure latin words,
+                    cosectetur, from a lorem<br> ipsum passage, and going through the cites of the word <br>in classical literature,discovered the undoubtable source. 
+                </p>
+            </div>
+            <div class="end">
+                <h4>Contact Info</h4>
+                <p><a href="#"><i class="fa-solid fa-location-dot" style="color: crimson;"></i>&nbsp;&nbsp;203 Fake St.Mountain View,
+                San<br> Francisco,California,USA</p></a>
+               <p> <i class="fa-solid fa-phone"  style="color: darkmagenta"></i> &nbsp; +2392 3992 210 </p>
+                <p><i class="fa-regular fa-envelope"  style="color: darkblue"></i> &nbsp; emailaddress@staybnb.com</p>
+            </div>
+            </div>
+            <br><br><br><br>
+            <hr style="margin-top: 26%;">
+            <p style="margin-top: 28%;">Copyright@ 2024, Staybnb.com.</p>
+            </div>
+</body>
+</html>
